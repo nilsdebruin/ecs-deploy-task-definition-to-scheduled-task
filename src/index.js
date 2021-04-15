@@ -13,7 +13,7 @@ const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
   'revision',
   'status',
   'registeredAt',
-  'registeredBy'
+  'registeredBy',
 ];
 
 function isEmptyValue(value) {
