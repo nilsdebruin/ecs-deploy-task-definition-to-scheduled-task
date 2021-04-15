@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
 
-// Attributes that are returned by DescribeTaskDefinition, but are not valid RegisterTaskDefinition inputs
+// Attributes that are returned by DescribeTaskDefinition, but are not valid RegisterTaskDefinition inputs, registeredAt and registeredBy added.
 const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
   'compatibilities',
   'taskDefinitionArn',
