@@ -14,6 +14,7 @@ const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
   'status',
   'registeredAt',
   'registeredBy',
+  'runtimePlatform'
 ];
 
 function isEmptyValue(value) {
