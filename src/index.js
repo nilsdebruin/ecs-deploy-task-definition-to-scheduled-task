@@ -15,6 +15,7 @@ const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
   'registeredAt',
   'registeredBy',
   'runtimePlatform',
+  'ephemeralStorage'
 ];
 
 function isEmptyValue(value) {
